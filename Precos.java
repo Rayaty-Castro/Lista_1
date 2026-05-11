@@ -7,7 +7,7 @@ public class Precos {
         Scanner leitor = new Scanner(System.in);
         ArrayList<Double> listaPrecos = new ArrayList<>();
 
-        System.out.println("--- Controle de Preços ---");
+        System.out.println("Controle de Preços");
 
         for (int i = 1; i <= 5; i++) {
             System.out.print("Digite o " + i + "º preço: R$ ");
@@ -18,7 +18,7 @@ public class Precos {
         double maior = Collections.max(listaPrecos);
         double menor = Collections.min(listaPrecos);
 
-        System.out.println("\n--- Resumo de Preços ---");
+        System.out.println("\nResumo de Preços");
         System.out.println("Lista de preços digitados: " + listaPrecos);
         System.out.printf("O maior preço encontrado foi: R$ %.2f%n", maior);
         System.out.printf("O menor preço encontrado foi: R$ %.2f%n", menor);
